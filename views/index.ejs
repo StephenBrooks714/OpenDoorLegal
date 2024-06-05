@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<%- include('layouts/header') -%>
+<body>
+<header>
+    <%- include('layouts/navBar') -%>
+    <%- include('partials/home/intro') -%>
+</header>
+<!-- Background image -->
+
+<main>
+    <!-- Container for demo purpose -->
+    <div class="container my-5 py-5">
+
+        <!--Section: Design Block-->
+        <%- include('partials/home/intro-section') -%>
+        <!--Section: Design Block-->
+        <%- include('partials/home/articles') -%>
+    </div>
+    <%- include('partials/home/banner') -%>
+    <!-- Container for demo purpose -->
+    <div class="container">
+        <%- include('partials/home/covered') -%>
+        <%- include('partials/home/reviews') -%>
+        <%- include('partials/home/contact') -%>
+    </div>
+</main>
+
+<%- include('layouts/scripts') -%>
+<%- include('layouts/footer') -%>
+</body>
+</html>
